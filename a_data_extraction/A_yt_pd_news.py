@@ -1,6 +1,14 @@
 from apiclient.discovery import build
 import pandas as pd
 
+'''
+Script to extract metadata from the YouTube Data API
+In this case, the parameters are:
+Short videos (<4mins), uploaded in Jan 2021 to the specified channel
+Relevance language is specified as 'en', but videos in other languages are still returned
+A maximum of 500-600 IDs can be extracted at one time
+'''
+
 # you need to register an API key (https://developers.google.com/youtube/v3/getting-started)
 api_key = 'INPUT_API_KEY'
 # in this case 'search_term' is set as a blank string, you can input a search word or term here
@@ -27,7 +35,7 @@ while 1:
     res = youtube.search().list(q=search_term,
                 part='id, snippet',
                 type='video', videoDuration='short', channelId=channel,
-                publishedAfter='2021-12-01T00:00:00Z', publishedBefore='2021-12-31T23:59:59Z',
+                publishedAfter='2021-1-01T00:00:00Z', publishedBefore='2021-1-31T23:59:59Z',
                 relevanceLanguage='en', maxResults=50, pageToken=nextPageToken).execute()
 
     videos += res["items"]
