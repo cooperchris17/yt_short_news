@@ -44,9 +44,6 @@ covid_19_word = ['covet 19', 'covert 19', 'covid19', 'kobe 19', 'coven 19',
 
 joined_covid = re.compile(r'\b(?:{0})\b'.format('|'.join(covid_19_word)))
 
-# optional space, does this work [\r\n]*
-# joined_covid = re.compile(r'\b(?:%s)\b' % '|'.join(covid_19_word))
-
 for file in glob.iglob('**', recursive=True):
     if os.path.isfile(file): # filter dirs
         if file.endswith('.txt'): # avoid editing .py files, etc
