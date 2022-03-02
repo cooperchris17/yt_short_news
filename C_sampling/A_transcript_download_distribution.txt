@@ -1,0 +1,52 @@
+Corpus Size(pre-cleaning)
+
+I downloaded every available transcript for all videos
+with a length of <4 mins uploaded to each of the channels 
+in 2021
+
+Number of texts in corpus:  21,149
+Total tokens in corpus:  7,270,791
+Mean text length:  343.79
+Standard deviation:  162.07
+
+Texts per channel:
+ABC News                 	1990
+Al Jazeera English       	2507
+Arirang News              2842
+BBC News                  982
+CBC News                  667
+CGTN          	          2024
+CNA                      	2515
+DW News                  	422
+Nippon TV News 24 Japan   876
+TVC News Nigeria         	2855
+WION                     	2465
+i24NEWS English          	1004
+
+I decided to randomly sample 720 texts from each channel
+(except CBC News and DW News, where I used all of the texts)
+
+This gave a balance of having an even number of texts across 
+most channels and including all of the channels, even if
+two were under-represented
+
+After sampling:
+
+Number of texts in corpus:  8,287
+Total tokens in corpus:  2,938,214
+Mean text length:  354.56
+Standard deviation:  173.6
+
+Texts per channel:
+ABC News                 	720
+Al Jazeera English       	720
+Arirang News              720
+BBC News                  720
+CBC News                  667
+CGTN          	          720
+CNA                      	720
+DW News                  	422
+Nippon TV News 24 Japan   720
+TVC News Nigeria         	720
+WION                     	720
+i24NEWS English          	720
