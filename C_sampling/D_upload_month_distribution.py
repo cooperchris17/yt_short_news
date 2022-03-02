@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 
 # read in the dataframe from csv file
-df = pd.read_csv('Twelve_Channels_2021.csv')
+df = pd.read_csv('sample_720_all_channels.csv')
 # create a new column extracting the month from 'published_at'
 df['month'] = pd.DatetimeIndex(df['published_at']).month
 # print 3 relevant columns of df
