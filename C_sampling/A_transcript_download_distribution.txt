@@ -38,15 +38,15 @@ Mean text length:  354.56
 Standard deviation:  173.6
 
 Texts per channel:
-ABC News                 	720
-Al Jazeera English       	720
+ABC News                  720
+Al Jazeera English        720
 Arirang News              720
 BBC News                  720
 CBC News                  667
-CGTN          	          720
-CNA                      	720
-DW News                  	422
+CGTN                      720
+CNA                       720
+DW News                   422
 Nippon TV News 24 Japan   720
-TVC News Nigeria         	720
-WION                     	720
-i24NEWS English          	720
+TVC News Nigeria          720
+WION                      720
+i24NEWS English           720
