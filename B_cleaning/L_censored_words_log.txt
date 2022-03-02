@@ -1,0 +1,46 @@
+Censored words log
+
+Only occured in 10 videos
+I decided to correct any mis-transcribed words
+And not correct words that had been censored by YouTube guidelines
+
+Whether the words should be censored is controversial, because
+they are not censored in the audio, so hard of hearing viewers
+can not access the same information
+https://support.google.com/youtube/thread/70343381/new-default-setting-for-automatic-captions-uses-to-better-avoid-mistakes
+
+
+Arirang_News_2021\Arirang_U-HwCaP3SS8.txt :  those remarks came just a day after [ __ ]
+'kim' - a name -> amended
+
+BBC_News_2021\BBC_ENYb1zF81EQ.txt :  dancing with her at [ __ ] or going on to
+'tramp' -> the name of a nightclub, amended
+
+BBC_News_2021\BBC_oNsJbdVi5iE.txt :  [ __ ]
+x [beep] -> the word was censored in the audio too
+
+CBC_News_2021\CBC_AdUX16hQLlM.txt :  a house of [ __ ] pyatt's second in
+'horrors' -> amended, probably mistranscribed as 'whores'
+
+CGTN_2021\CGTN_IUWu-XJJaso.txt :  these actions are intended to [ __ ]
+x 'cripple' -> used figuratively, but I decided not to amend
+
+DW_News_2021\DW_EwZHV2nL5Tc.txt :  [ __ ] the underground
+x 'cripple' -> used figuratively, but I decided not to amend
+
+i24_News_2021\i24_LhCJp37sBeg.txt :  on mount [ __ ] to
+'meron' -> the name of a mountain, amended (probably mistranscribed as 'moron')
+
+i24_News_2021\i24_y5c9NP5U_iM.txt :  to walk the [ __ ] walk in which the
+x 'slut' -> in context, the word is being reclaimed (used positively), but I decided not to amend
+i24_News_2021\i24_y5c9NP5U_iM.txt :  not guilty i believe you and [ __ ] must
+i24_News_2021\i24_y5c9NP5U_iM.txt :  are [ __ ] we dress how we want and we
+i24_News_2021\i24_y5c9NP5U_iM.txt :  whoever we want and we're [ __ ] okay
+i24_News_2021\i24_y5c9NP5U_iM.txt :  we're proud [ __ ] we're going to do what
+x 'sluts' -> in context, the word is being reclaimed (used positively), but I decided not to amend
+
+TVC_News_2021\TVC_bP3NLXdHTPw.txt :  down it's [ __ ] your head's going to do
+'like' -> probably mis-transcribed due to background noise, amended
+
+WION_2021\WION_ShPLugHUQTk.txt :  appointments [ __ ] mali he is the new
+haji -> a name, amended
