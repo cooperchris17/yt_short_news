@@ -9,7 +9,7 @@ amended manually as they were mainly 'covid' words, but had correct usage cases 
 import glob, os, re
 
 covid_19_word = ['covet', 'kovid', 'coven', 'kovit',
-                'kovi', 'kovite', 'covenant', 'cobit', 'cova',
+                'kovi', 'kovite', 'cobit', 'cova',
                 'kova', 'kovy', 'kobit', 'covey', 'covit', 'covent', 'kovitt',
                 'coved', 'kovan', 'coving', 'copin', 'kovind',
                 'kovic', 'copic', 'kovitz', 'kava', 'kovat',
