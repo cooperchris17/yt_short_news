@@ -17,7 +17,7 @@ BBC News                  982
 CBC News                  667
 CGTN                      2024
 CNA                       2515
-DW News                   422
+DW News                   419
 Nippon TV News 24 Japan   876
 TVC News Nigeria          2855
 WION                      2465
@@ -45,7 +45,7 @@ BBC News                  720
 CBC News                  667
 CGTN                      720
 CNA                       720
-DW News                   422
+DW News                   419
 Nippon TV News 24 Japan   720
 TVC News Nigeria          720
 WION                      720
