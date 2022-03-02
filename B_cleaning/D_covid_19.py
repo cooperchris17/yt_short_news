@@ -40,7 +40,10 @@ covid_19_word = ['covet 19', 'covert 19', 'covid19', 'kobe 19', 'coven 19',
 'kv 19', 'cool 19', 'cleveland 19', 'scovit 19', 'curvid 19', 'coped 19',
 'kobi 19', 'coke 19', 'kogan 19', 'corvae 19', 'cobo 19', 'karma 19', 'kuvu 19',
 'kaabi 19', 'kaaba 19', 'kaveh 19', 'kaffir 19', 'pulpit 19', 'kofit 19',
-'cove in 19', 'cove at 19', 'cove with 19']
+'cove in 19', 'cove at 19', 'cove with 19', 'coverage 19', 'color 19', 'kapha 19'
+'cupboard 19', 'coding 19', 'korea 19', 'scovil 19', 'korvik 19', 'cobalt 19',
+'kobat 19', 'kovain-19', 'kovad-19', 'kovy19', 'covenanting', 'covenanted',
+'covalenting', 'cov819', 'covington']
 
 joined_covid = re.compile(r'\b(?:{0})\b'.format('|'.join(covid_19_word)))
 
