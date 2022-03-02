@@ -9,8 +9,6 @@ import glob, os, re
 covid_19_word = 'kovacs'
 corrected_word = 'covax'
 
-# joined_covid = re.compile(r'\b(?:{0})\b'.format('|'.join(covid_19_word)))
-
 for file in glob.iglob('**', recursive=True):
     if os.path.isfile(file): # filter dirs
         if file.endswith('.txt'): # avoid editing .py files, etc
