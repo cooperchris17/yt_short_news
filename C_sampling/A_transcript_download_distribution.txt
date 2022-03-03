@@ -32,7 +32,7 @@ two were under-represented
 
 After sampling:
 
-Number of texts in corpus:  8,287
+Number of texts in corpus:  8,286
 Total tokens in corpus:  2,938,214
 Mean text length:  354.56
 Standard deviation:  173.6
