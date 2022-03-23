@@ -18,5 +18,15 @@ https://cooperchris17.github.io/ABC_News_CGTN/
 BBC News (U.K.) vs. Al Jazeera (Qatar)
 https://cooperchris17.github.io/BBC_News_Al_Jazeera/
 
+To deploy the visualisations online, GitHub Pages was used.
+A GitHub repository was made for each visualisation with only one file (index.html). 
+This was made by simply changing the name of the html file output by Scattertext.
+Then the visualisation was deployed to GitHub pages.
+
+GitHub Repositories:
+cooperchris17/nippontv_arirang
+cooperchris17/ABC_News_CGTN
+cooperchris17/BBC_News_Al_Jazeera
+
 Reference:
 Jason S. Kessler. Scattertext: a Browser-Based Tool for Visualizing how Corpora Differ. ACL System Demonstrations. 2017. Link to preprint: arxiv.org/abs/1703.00565
