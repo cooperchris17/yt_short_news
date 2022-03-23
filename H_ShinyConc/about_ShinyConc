@@ -1,0 +1,20 @@
+ShinyConc (http://shinyconc.de/) is an open source tool for creating a custom concordancer powered by R.
+
+The concordancer can be deployed online, so it can easily be used by language learners without having to download corpora or any other tools
+
+The ShinyConc website has very clear guidelines about setting up the concordancer.
+
+The files in this folder show how I got my data into the required format for ShinyConc
+
+When deploying the app online, I ran into a couple of problems
+
+1. I had to reduce the size of the corpus I uploaded to ShinyConc
+- When I tried to upload a .csv file with all of the data in it, the file was too large
+- and there is an upload limit of 6000 files (when uploading the corpus as .txt files)
+- so I resampled the corpus to have 490 files for each channel (except DW News, which only had 419 files) - 5809 files in total
+- therefore learners did not have accesss to the full corpus, but a sample
+- as they were mainly searching for frequent items, this did not seem to be problematic 
+
+2. Most importantly, I had to make a small change to the R code to deploy the app online
+- basically I had to change all occurences of 'install.packages' to 'library' (this didn't seem to be mentioned in the documentation, but it worked for me)
+- a screenshot of the changes is available in this folder
