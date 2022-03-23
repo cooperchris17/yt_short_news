@@ -1,0 +1,12 @@
+named entity recognition (ner) was used to indentify proper nouns
+- nltk didn't tag many proper nouns correctly (due to lower case text)
+- spaCy did, but tagged individual tokens (e.g. 'united' and 'states', not 'united states')
+
+- ner is also possible in spaCy, but I chose 'Jean-Baptiste/roberta-large-ner-english' on Hugging Face
+https://huggingface.co/Jean-Baptiste/roberta-large-ner-english
+- as 'In particular the model seems to work better on entity that don't start with an upper case.'
+- this seemed to be true when testing on a small number of texts compared with other models
+
+A brief comparison of nltk/spacy/roberta-large-ner-english model are shown in 'b_brief_comparison
+
+One downside of using roberta-large-ner-english is the processing time was veyr long
