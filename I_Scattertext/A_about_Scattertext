@@ -1,7 +1,22 @@
-ADD BRIEF DESCRIPTION HERE!
+Scattertext (Kessler, 2017) is a tool for comparing and visualising words that are characteristic of one category compared with another.
+
+The interactive plot allows users to click on words and see how they are used in context in the text.
+
+For this project Scattertext plots were produced to compare a YouTube news channel in Japan with one in South Korea, 
+one in the U.S. with one in China and one in the U.K. with one in Qatar.
+
+The aim is to allow learners to explore the visualisations and find language differences between the two channels.
 
 Links to the Scattertext visualisations that I made:
 
 Nippon TV (JP) Vs. Arirang News (KR):
 https://cooperchris17.github.io/nippontv_arirang/
 
+ABC News (U.S.) vs. CGTN (China)
+https://cooperchris17.github.io/ABC_News_CGTN/
+
+BBC News (U.K.) vs. Al Jazeera (Qatar)
+https://cooperchris17.github.io/BBC_News_Al_Jazeera/
+
+Reference:
+Jason S. Kessler. Scattertext: a Browser-Based Tool for Visualizing how Corpora Differ. ACL System Demonstrations. 2017. Link to preprint: arxiv.org/abs/1703.00565
