@@ -18,3 +18,11 @@ When deploying the app online, I ran into a couple of problems
 2. Most importantly, I had to make a small change to the R code to deploy the app online
 - basically I had to change all occurences of 'install.packages' to 'library' (this didn't seem to be mentioned in the documentation, but it worked for me)
 - a screenshot of the changes is available in this folder
+
+
+After getting the metadata in the correct format, I uploaded the metadata file at: http://shinyconc.de/builder/
+- then added the txt files as instructed in the ShinyConc guidelines
+- then deployed the app to shinyapps.io (after making the previously mentioned changes)
+
+Here is the link to the deployed app:
+https://coopersensei.shinyapps.io/yt_news_shinyconc/
