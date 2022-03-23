@@ -10,3 +10,8 @@ https://huggingface.co/Jean-Baptiste/roberta-large-ner-english
 A brief comparison of nltk/spacy/roberta-large-ner-english model are shown in 'b_brief_propn_comparison.pdf'
 
 One downside of using roberta-large-ner-english is the processing time was very long
+
+the scripts used with all 3 libraries are in this repository:
+roberta-large-ner-english: c_ner_freq_doc_freq.ipynb
+spaCy: E_frequency_lists_by_POS/a_spaCy_freq.ipynb
+nltk: d_nltk_frequencies.py
