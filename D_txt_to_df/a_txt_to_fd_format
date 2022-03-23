@@ -1,0 +1,10 @@
+The files in this folder convert all of the txt files in the corpus to a dataframe (.csv)
+The dataframe has the following columns:
+
+channel, month, video_id, text
+
+Examples:
+channel -> Nippon TV (JP)
+month (of upload) -> 3 
+video_id -> G-6NRBkLIYU
+text -> the whole text of the transcript in one cell
