@@ -7,6 +7,6 @@ https://huggingface.co/Jean-Baptiste/roberta-large-ner-english
 - as 'In particular the model seems to work better on entity that don't start with an upper case.'
 - this seemed to be true when testing on a small number of texts compared with other models
 
-A brief comparison of nltk/spacy/roberta-large-ner-english model are shown in 'b_brief_comparison
+A brief comparison of nltk/spacy/roberta-large-ner-english model are shown in 'b_brief_propn_comparison.pdf'
 
 One downside of using roberta-large-ner-english is the processing time was very long
