@@ -1,3 +1,10 @@
+'''
+This script was used to calculate the frequency of proper nouns using nltk
+
+The reaults were not used, as nltk didn't correctly tag many items as proper nouns
+This is probably due to the lower case text in YouTube transcripts
+'''
+
 from nltk import pos_tag, word_tokenize
 from nltk.probability import FreqDist
 import pandas as pd
