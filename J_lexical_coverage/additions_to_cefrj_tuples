@@ -1,0 +1,204 @@
+Additions to tuple list:
+
+('not', 'PART', 'a1')
+('n't', 'PART', 'a1')
+
+("'ve", 'AUX', 'a1') – in my spaCy ('ve AUX 've VBP) in nwlc -> HAVE-VERB
+("'d", 'AUX', 'a1') – my spaCy -> ('d AUX 'd MD) in nwlc -> modal
+("'ll", 'AUX', 'a1') (same as above)
+
+("'s", 'VERB', 'a1')
+("'s", 'PART', 'a1')
+("'s", 'PRON', 'a1')
+
+('thank', 'NOUN', 'a1') – thanks (NOUN) is on list as a1, it’s lemmatized to ‘thank’ in spaCy
+____________________________________
+
+Technically I think these should always be tagged as DET
+- but spaCy tags them as PRON
+- NWLC recognises them as DET 
+('my', 'PRON', 'a1')
+('there', 'PRON', 'a1')
+('their', 'PRON', 'a1')
+('your', 'PRON', 'a1')
+('our', 'PRON', 'a1')
+____________________________________
+
+Tagged with this POS at this level by NWLC
+('other', 'ADJ', 'a1')
+('more', 'ADJ', 'a1') 
+('last', 'ADJ', 'a2') 
+('few', 'ADJ', 'a2') 
+('most', 'ADJ', 'a1')
+('several', 'ADJ', 'a2’) 
+('much', 'ADJ', 'a1')
+('many', 'ADJ', 'a1')
+('next', 'ADJ', 'a2')
+('such', 'ADJ', 'a2')
+('less', 'ADJ', 'a2')
+___________________________________
+
+('out', 'ADP', 'a1') 
+('back', 'ADP', 'a1')
+– spaCy seems to tag ‘out’ and 'back' phrasal verbs with ADP
+- ADV was on a1 list for out (which is prob. correct POS)
+- so I added these at a1
+____________________________________
+
+('no', 'INTJ', 'a1') – matches nwlc (changed to ADV in nwlc)
+('sure', 'INTJ', 'a2') - matches nwlc (changed to ADV in nwlc)
+('thanks', 'INTJ', 'a1') - spaCy seemed to tag thanks as a noun anyway, but have added this to match nwlc
+('yeah', 'INTJ', 'a2')
+____________________________________
+
+('pandemic', 'NOUN', 'b2') -> spaCy is correctly tagging it (NWLC was ADJ)
+Oxford Learner Dictionary listed pandemic (adj/noun) as B2
+____________________________________
+
+('human right', 'NOUN', 'b2') -> for ‘human rights’, the lemma was ‘human right’, so I added this
+____________________________________
+
+('get', 'AUX', 'a1') -> example that made me add this was to ‘get pressed’ this was not mentioned in English vocabulary profile, nor was ‘get’ listed as an auxiliary
+-	Different uses of get had different levels
+-	Nwlc tagged this as a verb (and the token.tag_ is VB)
+-	I added it, the level is probably (at least partly) reflected by the verb it is used with
+____________________________________
+
+spaCy lemmas:
+('clothe', 'NOUN', 'a1') -> for clothes
+('thank', 'NOUN', 'a1') – thanks (NOUN) is on list as a1, it’s lemmatized to ‘thank’ in spaCy
+('datum', 'NOUN', 'b2') -> for data
+DIDN’T ADD: ('medium', 'NOUN', 'b2') – as lemma of media, medium as a NOUN is already in the list as a B1 word, this means that when ‘media’ is used as a noun it will be counted incorrectly
+_____________________________________
+
+('other', 'NOUN', 'a2') – NWLC changes this to a PRON
+('near', 'SCONJ', 'a1') -> NWLC changes this to PREP
+('labor', 'ADJ', 'a2') ('labour', 'ADJ', 'a2') -> NWLC changes to NOUN
+('retail', 'ADJ', 'b1') -> NWLC changes to NOUN
+('sort', 'ADV', 'b1') -> NWLC changes to NOUN
+
+('ten', 'NOUN', 'a1'), ('tens', 'NOUN', 'a1')
+('hundred', 'NOUN', 'a2'), ('hundreds', 'NOUN', 'a2')
+('thousand', 'NOUN', 'a2'), ('thousands', 'NOUN', 'a2')
+('million', 'NOUN', 'a2'), ('millions', 'NOUN', 'a2')
+-	Added these numbers as they are tagged as NUM and categorised correctly by NWLC
+-	For my program, if a number is given the tag NUM, it will go to numbers, if it is given the tag NOUN, it will be A1 or A2
+-	For listening texts, there should probably be no distinction between figures and written numbers
+-	Need to work on converting numbers to integers and assigning them to a1 or a2
+____________________________________
+
+Conjunctions:
+
+CONJ -> CCONJ & SCONJ
+CCONJ
+and, but, or, for, so, nor, 
+- 'so' added as CCONJ and SCONJ
+SCONJ
+- all the other conjunctions
+
+This is the original list of conjunctions:
+('after', 'CONJ', 'b1')
+('although', 'CONJ', 'a2')
+('and', 'CONJ', 'a1')
+('as', 'CONJ', 'a2')
+('because', 'CONJ', 'a1')
+('before', 'CONJ', 'a2')
+('but', 'CONJ', 'a1')
+('considering', 'CONJ', 'b2')
+('either', 'CONJ', 'a2')
+('except', 'CONJ', 'a2')
+('for', 'CONJ', 'a2')
+('if', 'CONJ', 'a1')
+('lest', 'CONJ', 'b2')
+('like', 'CONJ', 'b1')
+('neither', 'CONJ', 'b2')
+('nor', 'CONJ', 'b1')
+('now', 'CONJ', 'b2')
+('once', 'CONJ', 'b2')
+('or', 'CONJ', 'a1')
+('plus', 'CONJ', 'b1')
+('provided', 'CONJ', 'b1')
+('since', 'CONJ', 'b1')
+('so', 'CONJ', 'a1')
+('than', 'CONJ', 'a1')
+('that', 'CONJ', 'a1')
+('though', 'CONJ', 'a2')
+('till', 'CONJ', 'b1')
+('unless', 'CONJ', 'b1')
+('until', 'CONJ', 'b1')
+('when', 'CONJ', 'a1')
+('whenever', 'CONJ', 'b1')
+('where', 'CONJ', 'a1')
+('whereas', 'CONJ', 'b2')
+('wherever', 'CONJ', 'b1')
+('whether', 'CONJ', 'b1')
+('while', 'CONJ', 'a2')
+('yet', 'CONJ', 'b1')
+____________________________________
+
+Lower-case words
+Added lower case versions of all words that were upper case, as these did not seem to be recognised due to the lower case words of the YouTube transcripts:
+('A.M.', 'ADV', 'a1')
+('AM', 'ADV', 'a1')
+('CD', 'NOUN', 'a1')
+('CD-ROM', 'NOUN', 'b1')
+('CV', 'NOUN', 'b1')
+('DJ', 'NOUN', 'b1')
+('DNA', 'NOUN', 'b2')
+('DVD', 'NOUN', 'a1')
+('HIV', 'NOUN', 'b1')
+('I', 'PRON', 'a1')
+('ID', 'NOUN', 'a2')
+('IT', 'NOUN', 'a2')
+('OK', 'ADJ', 'a1')
+('OK', 'ADV', 'a1')
+('P.M.', 'ADV', 'a1')
+('PC', 'NOUN', 'a2')
+('PM', 'ADV', 'a1')
+('TV', 'NOUN', 'a1')
+
+And these words starting with a capital letter:
+('April', 'NOUN', 'a1')
+('Atlantic', 'ADJ', 'b1')
+('August', 'NOUN', 'a1')
+('Christian', 'ADJ', 'b1')
+('December', 'NOUN', 'a1')
+('Dr', 'NOUN', 'a1')
+('Dr.', 'NOUN', 'a1')
+('Englishman', 'NOUN', 'b1')
+('February', 'NOUN', 'a1')
+('Friday', 'NOUN', 'a1')
+('Internet', 'NOUN', 'a1')
+('January', 'NOUN', 'a1')
+('July', 'NOUN', 'a1')
+('June', 'NOUN', 'a1')
+('March', 'NOUN', 'a1')
+('May', 'NOUN', 'a1')
+('Mediterranean', 'NOUN', 'b1')
+('Miss', 'NOUN', 'a1')
+('Monday', 'NOUN', 'a1')
+('Mr', 'NOUN', 'a1')
+('Mr.', 'NOUN', 'a1')
+('Mrs', 'NOUN', 'a1')
+('Mrs.', 'NOUN', 'a1')
+('Ms', 'NOUN', 'a2')
+('Ms.', 'NOUN', 'a2')
+('November', 'NOUN', 'a1')
+('October', 'NOUN', 'a1')
+('Olympia', 'NOUN', 'b2')
+('Olympiad', 'NOUN', 'b2')
+('Olympic', 'ADJ', 'a2')
+('Olympics', 'NOUN', 'a1')
+('Saturday', 'NOUN', 'a1')
+('September', 'NOUN', 'a1')
+('Shakespearean', 'ADJ', 'b2')
+('Soviet', 'NOUN', 'b2')
+('Sunday', 'NOUN', 'a1')
+('Thursday', 'NOUN', 'a1')
+('Tuesday', 'NOUN', 'a1')
+('Wednesday', 'NOUN', 'a1')
+
+('ID card', 'NOUN', 'a2')
+('MP3 player', 'NOUN', 'a2')
+('T-shirt', 'NOUN', 'a1')
+('X-ray', 'NOUN', 'b2')
