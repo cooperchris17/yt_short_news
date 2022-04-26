@@ -1,1 +1,19 @@
-BLANK
+As explained in the paper, Python was used to calculate the lexical coverage of the texts using the CEFR-J wordlist
+
+LC_One_Text.ipynb can be used to get the lexical profile of one text, but NWLC (https://nwlc.pythonanywhere.com/) is probably a more useful tool if you want to do this
+
+LC_Multiple.ipynb is written to calculate the lexical profile of many texts
+- the processing will probably take a long time, for this project, a batch of 720 short texts took around 30 minutes
+
+The two .py files (cj_tuples.py and special_tokens.py) are needed to run the code
+- Pandas and spaCy also need to be installed
+
+As stated in the paper, this program could definitely be improved
+- particularly the tagging of proper nouns 
+- and there may still be some words that are tagged as 'others' that should be tagged at the A1 to B2 level
+
+To match how some lemmas are tagged in spaCy, a number of items were added to the cefr-j tuples list (cj_tuples.py)
+- for transparency the list of additions is available in this folder ('additions_to_cj_tuples') with explanations
+- the items listed in 'compounds_with_2_pos' might also be mistagged, but it won't affect the lexical coverage
+
+This is still a work in progress and any feedback or comments are welcome
