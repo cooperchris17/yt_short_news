@@ -1,0 +1,18 @@
+Compounds with 2 POS:
+-	Some of these will be tagged incorrectly
+-	But it won’t affect the lexical coverage count, as with all 7 compounds, the cefr level is the same regardless of the POS
+
+('all right', 'ADJ', 'a1')
+('all right', 'ADV', 'a1')
+('upside down', 'ADJ', 'b2')
+('upside down', 'ADV', 'b2')
+('full-time', 'ADV', 'b1')
+('full-time', 'ADJ', 'b1')
+('grown-up', 'NOUN', 'b2')
+('grown-up', 'ADJ', 'b2')
+('half-price', 'ADJ', 'a2')
+('half-price', 'ADV', 'a2')
+('part-time', 'ADV', 'b1')
+('part-time', 'ADJ', 'b1')
+('second-hand', 'ADJ', 'b1')
+('second-hand', 'ADV', 'b1')
