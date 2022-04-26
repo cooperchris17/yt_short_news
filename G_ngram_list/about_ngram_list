@@ -1,0 +1,26 @@
+A multiword unit list was made using Antgram (https://www.laurenceanthony.net/software/antgram/)
+with the following parameters:
+- 3-grams to 5-grams
+- Minimum frequency of 20 and minimum document frequency of 20
+- Numbers replaced by #
+- No open slots
+- Top 1000 sorted by frequency
+
+A screenshot of Antgram with the settinngs is available in this folder
+
+Ngrams were delted from the list if...
+
+- They were used in only one channel (e.g. ‘the ABC News’)
+- N-grams that were actually 2 words (e.g. ‘the country’s’)
+- Parts (e.g. ‘the same time’ and ‘at the same’ were deleted, ‘at the same time’ was not)
+- all 3-grams that included apostrophes (e.g. ‘we’re seeing’, ‘we’ve seen’ )
+- Any n-gram containing 2 numbers and one word (e.g. the # #)
+- N-grams with ‘the [noun] and’ (e.g. ‘the pandemic and’, ‘the world and’)
+- Any n-grams that were extracted because there was a reoccurring segment in many videos, for example most ABC News videos ended like this:
+
+hi everyone george stephanopoulos here thanks for checking out the abc news youtube channel if you'd like to get more 
+videos show highlights and watch live event coverage click on the right over here to subscribe to our channel and don't 
+forget to download the abc news app for breaking news alerts thanks for watching
+
+
+The full unedited list of 1,000 ngrams and the edited list are available in this folder
