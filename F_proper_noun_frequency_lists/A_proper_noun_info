@@ -15,3 +15,7 @@ the scripts used with all 3 libraries are in this repository:
 roberta-large-ner-english: c_ner_freq_doc_freq.ipynb
 spaCy: E_frequency_lists_by_POS/a_spaCy_freq.ipynb
 nltk: d_nltk_frequencies.py
+
+f_full_entities_list
+= the list of entities identified by the roberta_large_ner model
+- ordered by frequency
