@@ -2,7 +2,7 @@
 This repository contains Python code, additional data, and more detailed explanations to accompany the paper:
 'A corpus of short YouTube news videos to inform course design and materials development in an EFL university setting in Japan.'
 
-The paper will be presented at CALL 2022 (https://conferences.castledown.com/call2022/) 8-10 July 2022.
+The paper was presented at CALL 2022 (https://conferences.castledown.com/call2022/) 8-10 July 2022.
 
 The layout of the folders has been designed in a way that anybody interested in replicating the research should be able to follow through the folders in order.
 
