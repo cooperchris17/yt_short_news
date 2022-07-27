@@ -1,6 +1,7 @@
 # yt_short_news
 This repository contains Python code, additional data, and more detailed explanations to accompany the paper:
-'A corpus of short YouTube news videos to inform course design and materials development in an EFL university setting in Japan.'
+
+Cooper, C.R. (2022). A corpus of short YouTube news videos to inform course design and materials development in an EFL university setting in Japan. In J. Colpaert, Y. Wang, & G. Stockwell (Eds.), Proceedings of the XXIst International CALL Research Conference (pp. 33–46). Castledown Publishers. https://doi.org/10.29140/9781914291050-6
 
 The paper was presented at CALL 2022 (https://conferences.castledown.com/call2022/) 8-10 July 2022.
 
